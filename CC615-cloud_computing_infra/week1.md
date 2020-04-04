@@ -22,7 +22,7 @@ Cloud Computing refers to the creation and use of remote virtual servers or othe
 
 NIST definition:
 
-Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g. networks, servers, storage, applications, and services) which can be rapidly provisioned and released with minimal management effort or service provider interaction (Mell & Grance, 2011)
+_Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g. networks, servers, storage, applications, and services) which can be rapidly provisioned and released with minimal management effort or service provider interaction (Mell & Grance, 2011)_
 
 Two Technologies involved:
 
@@ -69,3 +69,26 @@ SaaS / XaaS
 - They only see the screens of that application package, and the provider maintains the whole stack including the package
 - Also, some providers implement just a particular resources or service access in the cloud like: storage or database, which leads to new acronyms like STaaS or DaaS, and an umbrella model of XaaS (Everything as a Service)
 
+## Cloud Deployment Models
+
+Public Cloud
+
+- Most popular deployment model.
+- The physical cloud infrastructure is located on cloud provider's premises, and it is shared by all cloud customers.
+- This means your virtual server runs on a physical host on which virtual servers of other customers can also be running. Depending on the loads placed on other customers' virtual servers, the hypervisor may allocate fewer host resources to your virtual server.
+- Although no server will be "starved to death", the fluctuations in CPU or memory allocations can be recognizable. They are also referred as "noisy neighbor effect"
+
+Private Cloud
+
+- Private Cloud Off-Premises
+  - Organization may demand and get exclusive access to physical resources implementing their cloud. This is called "private cloud." It can happen on or off-premises of the customer..
+  - In private off-premises cloud, a cloud customer gets a dedicated physical host on the provider's premises. This is also called a "dedicated cloud" model. The virtual servers of one customer are provisioned on the same or other dedicated hosts.
+- Private Cloud On-Premises
+  - Because of security or control considerations, some organizations insist on having the physical cloud infrastructure located on their premises.
+  - This is the traditional private cloud deployment model, and some vendors also call it a "__local cloud__."
+  - In this private cloud, the customer can take advantage of cloud paradigm elasticity and adaptability but retain a higher degree of control.
+- Examples of virtualization software are: Open Source OpenStack, VMWare vCenter
+
+Hybrid Cloud
+
+- ​
