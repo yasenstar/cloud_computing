@@ -53,9 +53,16 @@ IaaS
 - Describes cloud service provider which makes virtualized elements of physical cloud infrastructure - servers, storage, and network - available to the customers. Because the provider implements virtual resources, they also own the virtualization layer.
 - After provisioning virtual resources using the provider's Web interface, the customer accesses the user interface screens of these resources over Internet.
 - The servers running Windows can be accessed using Microsoft Remote Desktop. Servers running Linux use a Secure Shell command (ssh)
+- Customers see the home screen of the OS
+- The maintenance of the OS and all the software running on top of it are up to the customer. e.g. middleware (web server), runtime platform (Java JVM), data and application itself
 
 PaaS
 
+- Provides the customer with a complete development environment (platform) in which they can develop and run their own application
+- The platform may include programming language editors, compilers, and runtimes, middleware, and development lifecycle supporting tools like requirement maintenance software, design tools, testing and development frameworks, etc.
+
 SaaS
+
+- ​
 
 XaaS
