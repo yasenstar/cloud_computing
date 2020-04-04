@@ -61,10 +61,11 @@ PaaS
 - Provides the customer with a complete development environment (platform) in which they can develop and run their own application
 - The platform may include programming language editors, compilers, and runtimes, middleware, and development lifecycle supporting tools like requirement maintenance software, design tools, testing and development frameworks, etc.
 - Customers and implement complete software development pipeline in the cloud, and even integrate it with IT operations in a paradigm called DevOps (Development and Operations)
-- Customer develop applications and provide data for them, and everything else in the image in
+- Customer develop applications and provide data for them, and everything else in the image is up to the cloud provider, to license and manage the OS and middleware. The PaaS customer usually sees a console which allows the utilization of various elements of the platform
 
-SaaS
+SaaS / XaaS
 
-- ​
+- SaaS customers access a particular application package, running in the provider's cloud
+- They only see the screens of that application package, and the provider maintains the whole stack including the package
+- Also, some providers implement just a particular resources or service access in the cloud like: storage or database, which leads to new acronyms like STaaS or DaaS, and an umbrella model of XaaS (Everything as a Service)
 
-XaaS
