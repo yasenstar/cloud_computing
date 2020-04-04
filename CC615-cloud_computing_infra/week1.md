@@ -37,4 +37,7 @@ Two Technologies involved:
 
 __Virtualization__ and __Networking(Internet)__ are both the cloud computing enablers, which allow for delivering elastic, on-demand, pay-per-use IT system configurations in the cloud.
 
- 
+## Cloud Service Models
+
+Cloud Service Models differ by what components of the hardware/software stack are maintained and managed by the cloud providers, and which by the customer.
+
