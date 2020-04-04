@@ -91,4 +91,11 @@ Private Cloud
 
 Hybrid Cloud
 
-- ​
+- This is a mix of public and private deployment models, this is a very powerful way to utilize the cloud.
+- It allows organizations to run
+  - Legacy or critical applications on-premises
+  - Applications better suited for cloud, like new "born for the cloud" software, backup, or archiving off-premises
+- It requires a more advanced network setup to ensure safe and efficient on-off premises communications
+
+___Note: Any of the deployment models above can support any of the service models.___
+
