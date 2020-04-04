@@ -43,3 +43,19 @@ Cloud Service Models differ by what components of the hardware/software stack ar
 
 ![cloud service models](https://github.com/yasenstar/cloud_computing/blob/master/img/cloud_service_models.png)
 
+On-premises
+
+- In traditional IT "On-premises" model, all components are maintained and managed by the customers
+- It also applies to the private cloud delivery model, where an organization maintains an on-premises cloud to take advantage of cloud computing paradigm, but retain full control over their whole stack.
+
+IaaS
+
+- Describes cloud service provider which makes virtualized elements of physical cloud infrastructure - servers, storage, and network - available to the customers. Because the provider implements virtual resources, they also own the virtualization layer.
+- After provisioning virtual resources using the provider's Web interface, the customer accesses the user interface screens of these resources over Internet.
+- The servers running Windows can be accessed using Microsoft Remote Desktop. Servers running Linux use a Secure Shell command (ssh)
+
+PaaS
+
+SaaS
+
+XaaS
