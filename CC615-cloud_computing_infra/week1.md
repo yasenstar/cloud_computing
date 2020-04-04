@@ -41,3 +41,5 @@ __Virtualization__ and __Networking(Internet)__ are both the cloud computing ena
 
 Cloud Service Models differ by what components of the hardware/software stack are maintained and managed by the cloud providers, and which by the customer.
 
+![cloud service models](https://github.com/yasenstar/cloud_computing/blob/master/img/cloud_service_models.png)
+
