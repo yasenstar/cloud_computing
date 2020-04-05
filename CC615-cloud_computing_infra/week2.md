@@ -91,11 +91,17 @@ While each virtual server carries its own guest operating system, containers run
 
 Containers are provisioned for containers images which contain libraries and the run-times needed for running a particular application. They don't contain the operating system binary so they are smaller.
 
-Virtual Machines v.s. Container:
+Virtual Machines v.s. Container: the cake has less layers:
 
 ![virtual server v.s. container](https://github.com/yasenstar/cloud_computing/blob/master/img/vm_vs_container.png)
 
 ### Advantages and Disadvantages of Containers
+
+| Advantages                                                   | Disadvantage                                                 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Creating a container does not involve installing and booting the OS; they can be brought up and down much faster then virtual servers.<br />Container images are smaller and easier to create and use.<br />Container only have one OS: the Host. Since containers are isolated environments, and each can have its own set of libraries and runtimes, they can run without version conflict even with a shared OS. | The fact that there is a single shared OS is a limitation.<br />You cannot run Windows and Linux apps in containers on a single host.<br />Also, the security holes in the shared OS can influence all containers on a host. |
+
+
 
 ##  Server-less Computing
 
