@@ -99,10 +99,23 @@ Virtual Machines v.s. Container: the cake has less layers:
 
 | Advantages                                                   | Disadvantage                                                 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Creating a container does not involve installing and booting the OS; they can be brought up and down much faster then virtual servers.<br />Container images are smaller and easier to create and use.<br />Container only have one OS: the Host. Since containers are isolated environments, and each can have its own set of libraries and runtimes, they can run without version conflict even with a shared OS. | The fact that there is a single shared OS is a limitation.<br />You cannot run Windows and Linux apps in containers on a single host.<br />Also, the security holes in the shared OS can influence all containers on a host. |
-
-
+| Creating a container does not involve installing and booting the OS; they can be brought up and down much faster then virtual servers.<br />Container images are smaller and easier to create and use.<br />Container only have one OS: the Host. Since containers are isolated environments, and each can have its own set of libraries and runtimes, they can run without version conflict even with a shared OS.<br />Container technology is gaining popularity and is being offered by most cloud vendors.<br />It is particularly well suited for deployment of micro-services independent application components, each with its development and deployment cycle. | The fact that there is a single shared OS is a limitation.<br />You cannot run Windows and Linux apps in containers on a single host.<br />Also, the security holes in the shared OS can influence all containers on a host. |
 
 ##  Server-less Computing
 
-### What is Server-less Computing
+Most lightweight compute option: if you just have a piece of software which you want to run in the cloud as a reaction to some external event, and you don't want to care about provisioning and maintaining servers or containers, you may take advantages of it. It is called FaaS (Function as a Service).
+
+You will have to adhere to a particular way of writing and deploying your code, but the cloud vendor will supply the infrastructure to run it without your intervention, and release it upon completion.
+
+Code to be deployed on server-less compute has to be stateless; which means that no data can survive across its invocations unless it is persisted externally.
+
+Applications best suited for server-less compute are systems handling events coming from a large number of sources which do not require complicated processing, such as IoT software.
+
+[Serverless-Computing wiki](https://en.wikipedia.org/wiki/Serverless_computing)
+
+- AWS offering is called AWS Lambda, [link](https://aws.amazon.com/serverless/)
+- Azure calls it Functions, [link](https://azure.microsoft.com/en-us/services/functions/)
+
+===
+
+keep learning...
