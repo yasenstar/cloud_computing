@@ -1,5 +1,7 @@
 # Week 1
 
+[TOC]
+
 ## Objectives
 
 1. Cloud Computing and its Enablers

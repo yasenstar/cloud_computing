@@ -1,5 +1,7 @@
 # Week 2 Cloud Infrastructure
 
+[TOC]
+
 ## Objectives
 
 - Virtual Servers
@@ -118,4 +120,63 @@ Applications best suited for server-less compute are systems handling events com
 
 ===
 
-keep learning...
+### Week 2 References
+
+Amazon Web Services (n.d.). *Amazon EC2 Container Service*. Retrieved from <https://aws.amazon.com/ecs/>
+
+ 
+
+Amazon Web Services (n.d.). *Amazon EC2 Instance Types*. Retrieved from <https://aws.amazon.com/ec2/instance-types/>
+
+ 
+
+Amazon Web Services (n.d.). *Auto Scaling*. Retrieved from <https://aws.amazon.com/autoscaling/>
+
+ 
+
+Amazon Web Services (n.d.). *Serverless Computing and Applications*. Retrieved from <https://aws.amazon.com/serverless/> 
+
+DigitalOcean (2015, February 1). *The Docker Ecosystem: An Overview of Containerization*. Retrieved from <https://www.digitalocean.com/community/tutorials/the-docker-ecosystem-an-overview-of-containerization>
+
+Goswami, K. (2015, August 21). *How would you explain IaaS, PaaS, SaaS to your Mom? *Retrieved from <https://www.linkedin.com/pulse/how-would-you-explain-iaas-paas-saas-your-mom-kadamb-goswami>
+
+IBM (n.d.). *IaaS cloud servers*. Retrieved from <https://www.ibm.com/cloud/infrastructure>
+
+Kava, J. (2014, December 16). *Inside a Google data center*. Retrieved from <https://www.youtube.com/watch?v=XZmGGAbHqa0>
+
+ 
+
+Microsoft Azure (n.d.). *Container Service*. Retrieved from <https://azure.microsoft.com/en-us/services/container-service/>
+
+ 
+
+Microsoft Azure (n.d.). *Functions*. Retrieved from <https://azure.microsoft.com/en-us/services/functions/>
+
+ 
+
+Microsoft Azure (n.d.). *Linux Virtual Machines Pricing*. Retrieved from <https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/>
+
+ 
+
+Microsoft Azure (2014, April 8). *Microsoft Azure Load Balancing Services*. Retrieved from <https://azure.microsoft.com/en-us/blog/microsoft-azure-load-balancing-services/>
+
+ 
+
+Microsoft Datacenters (2014, August 26). *Microsoft Datacenter Tour (long version)*. Retrieved from  <https://www.youtube.com/watch?v=s5I4wcQ6n0g>
+
+Onisick, J. (2010, September 6). *Data Center 101: Server Virtualization*. Retrieved from <http://www.definethecloud.net/category/concepts/data-center-101/>
+
+Roberts, M. (2016, August 4). *Serverless Architectures*. Retrieved from <https://martinfowler.com/articles/serverless.html>
+
+Scheepers, M. (n.d.). *Virtualization and Containerization of Application Infrastructure: A Comparison*. Retrieved from <https://web.archive.org/web/20170701121019/http://referaat.cs.utwente.nl/conference/21/paper/7449/virtualization-and-containerization-of-application-infrastructure-a-comparison.pdf>
+
+TechTarget (n.d.). *containerization (container-based virtualization)*. Retrieved from <http://searchservervirtualization.techtarget.com/definition/container-based-virtualization-operating-system-level-virtualization>
+
+Wikipedia (n.d.). Bare-metal server. Retrieved from <https://en.wikipedia.org/wiki/Bare-metal_server>
+
+Wikipedia (2011, July 23). *Hypervisor*. Retrieved from <https://en.wikipedia.org/wiki/Hypervisor>
+
+Wikipedia (n.d.). *Serverless computing*. Retrieved from <https://en.wikipedia.org/wiki/Serverless_computing>
+
+Wikipedia (n.d.). *Virtual private server*. Retrieved from <https://en.wikipedia.org/wiki/Virtual_private_server>
+
