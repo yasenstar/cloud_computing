@@ -23,6 +23,14 @@ The hypervisor can substitute for the host's operating system, or run on top of 
 
 ![virtual server hypervisor types](https://github.com/yasenstar/cloud_computing/blob/master/img/virtual_server_hypervisor.png)
 
+The CPUs of physical host servers in the racks are multi-core which means they contain multiple separate processing units - cores capable of running computer code. Each core may be multi-threaded, allowing execution of several separate threads.
+
+Intel's Hyper-Threading technology allows the hypervisor to see the threads as separate "logical" CPUs. Hypervisors allocate separate core threads (also called virtual CPUs or virtual cores) to virtual servers. They also implement sharing of host server's memory and attached disks among created virtual servers.
+
+Each physical host is equipped with multiple network interface cards (NICs), which can also be virtualized and shared among virtual servers. Add to it virtualization of network devices in the data center (routers and switches, connected to server's NICs), and each virtual server can get its network addresses. Also the fact that servers are inter-connected allows for creating virtual local network (VLANs) of virtual servers.
+
+[Reference Link on "Data Center 101"](http://www.definethecloud.net/category/concepts/data-center-101)
+
 ### Virtual Server Provisioning
 
 ### Auto-Scaling
