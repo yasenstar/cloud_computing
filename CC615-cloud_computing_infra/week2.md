@@ -79,11 +79,21 @@ Provisioning bare metal servers may take longer than virtual servers, and billin
 
 ### Co-location
 
+Many cloud vendors offer the option of co-location, allowing customers to bring in their physical servers and install them in the vendor's data center. This way, customers can take advantages of the provider's power, cooling, physical security feature, while they own and fully control the hardware. Other devices, e.g. network or storage devices, can also be co-located.
 
+This is usually a process for co-location to adhere to the provider's security measures. Cloud providers allow for co-located resources to connect to their cloud offering. A typical example is co-locating a custom network gateway to provide connectivity between on and off-premises hybrid cloud environments.
 
 ##  Containers
 
 ### What is a Container?
+
+While each virtual server carries its own guest operating system, containers run on top of single operating system installed on the host server. Containers are computing units which offer a higher level of isolation from each other. Each container is confined to its own namespace. That means it sees only its own file system in memory.
+
+Containers are provisioned for containers images which contain libraries and the run-times needed for running a particular application. They don't contain the operating system binary so they are smaller.
+
+Virtual Machines v.s. Container:
+
+![virtual server v.s. container](https://github.com/yasenstar/cloud_computing/blob/master/img/vm_vs_container.png)
 
 ### Advantages and Disadvantages of Containers
 
