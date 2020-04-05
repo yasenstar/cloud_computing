@@ -21,6 +21,8 @@ For server virtualization, __hypervisor__ software can create multiple copies of
 
 The hypervisor can substitute for the host's operating system, or run on top of it.
 
+![virtual server hypervisor types](https://github.com/yasenstar/cloud_computing/blob/master/img/virtual_server_hypervisor.png)
+
 ### Virtual Server Provisioning
 
 ### Auto-Scaling
