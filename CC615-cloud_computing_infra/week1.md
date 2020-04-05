@@ -31,6 +31,7 @@ Two Technologies involved:
   - Hypervisor software makes these machines (hosts) run multiple instances of guest virtual machines, sharing resources of the host.
   - Creation and control of virtual machines can be done programmatically.
   - Other IT hardware resources, like storage and network, can also be virtualized
+  - _Software implementing server virtualization is call __Hypervisor__._
 - Networking
   - Regardless of where the underlying hardware is located, the virtual resources can both be created and accessed remotely, over the Internet
   - The data centers implementing the cloud can be owned and maintained by the cloud providers in separate locations, or organizations on their premises
@@ -87,6 +88,7 @@ Private Cloud
   - Because of security or control considerations, some organizations insist on having the physical cloud infrastructure located on their premises.
   - This is the traditional private cloud deployment model, and some vendors also call it a "__local cloud__."
   - In this private cloud, the customer can take advantage of cloud paradigm elasticity and adaptability but retain a higher degree of control.
+  - Using on-premises hardware, organizations can outsource cloud creation and management to a third-party vendor, or do it by themselves.
 - Examples of virtualization software are: Open Source OpenStack, VMWare vCenter
 
 Hybrid Cloud
@@ -99,3 +101,26 @@ Hybrid Cloud
 
 ___Note: Any of the deployment models above can support any of the service models.___
 
+## Week 1 Reference
+
+Anderson, E. (2014, July 14). *How to explain private, public and hybrid cloud to your spouse*. Retrieved from <https://www.ibm.com/blogs/cloud-computing/2014/07/explain-private-public-hybrid-cloud-spouse/>
+
+Bals, F. (2014, September 26). *Pizza as a Service - On Prem, IaaS, PaaS and SaaS Explained through Pie*. Retrieved from <https://www.linkedin.com/pulse/20140926191127-3354428-pizza-as-a-service-on-prem-iaas-paas-and-saas-explained-through-pie>
+
+Barabas, J. (n.d.). IaaS PaaS SaaS - Cloud Service Models. Retrieved from <https://www.ibm.com/cloud/learn/iaas-paas-saas>
+
+Colman, E. (2013, August 27). *When to use SaaS, PaaS, and IaaS*. Retrieved from <https://www.computenext.com/blog/when-to-use-saas-paas-and-iaas/>
+
+Columbus, L. (2017, April 29).  Roundup Of Cloud Computing Forecasts, 2017. Retrieved from <https://www.forbes.com/sites/louiscolumbus/2017/04/29/roundup-of-cloud-computing-forecasts-2017/#20f6a54831e8>
+
+Goswami, K. (2015, August 21). *How would you explain IaaS, PaaS, SaaS to your Mom?. *Retrieved from <https://www.linkedin.com/pulse/how-would-you-explain-iaas-paas-saas-your-mom-kadamb-goswami>
+
+IntegrantSoftware (2013, July 31). IaaS vs. PaaS vs. SaaS. Retrieved from <https://www.youtube.com/watch?v=KgL3BfAc9Cs>
+
+Intel (n.d.). *Public Cloud vs. Private Cloud vs. Hybrid Cloud*. Retrieved from <https://www.intel.com/content/www/us/en/cloud-computing/cloud-101-video.html>
+
+Leong, Bala, Lowery, and Smith (2017, June 15).  *Magic Quadrant for Cloud Infrastructure as a Service, Worldwide*. Retrieved from <https://www.gartner.com/doc/reprints?id=1-2G2O5FC&ct=150519>
+
+Mell and Grance (2011).  The NIST definition of cloud computing.  Gaithersburg, MD: Computer Security Division, Information Technology Laboratory, National Institute of Standards and Technology. Retrieved from <http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf>
+
+Rackspace (n.d.). *The Difference Between Private and Public Cloud*. Retrieved from <https://www.rackspace.com/en-us/cloud/cloud-computing/difference>
