@@ -29,6 +29,8 @@ Intel's Hyper-Threading technology allows the hypervisor to see the threads as s
 
 Each physical host is equipped with multiple network interface cards (NICs), which can also be virtualized and shared among virtual servers. Add to it virtualization of network devices in the data center (routers and switches, connected to server's NICs), and each virtual server can get its network addresses. Also the fact that servers are inter-connected allows for creating virtual local network (VLANs) of virtual servers.
 
+![virtualization in a data center](https://github.com/yasenstar/cloud_computing/blob/master/img/virtualization.png)
+
 [Reference Link on "Data Center 101"](http://www.definethecloud.net/category/concepts/data-center-101)
 
 ### Virtual Server Provisioning
