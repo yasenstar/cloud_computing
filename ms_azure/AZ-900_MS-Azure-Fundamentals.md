@@ -85,15 +85,237 @@ One of the primary benefits for moving to the cloud is removing some of the IT b
 
 ### 1.3 Differences between Public, Private and Hybrid Cloud Models
 
+- Public (often referred to as a multi-tenant environment)
+
+	- You use shared infrastructure that is accessible on a public network
+	- Pros
+
+		- Beneficial in that it makes it easy and fast to move to the cloud
+		- You benefit from the ability to scale quickly and efficiently because the cloud provider has resources already provisioned and ready for your use when needed
+		- You can control costs more efficiently because you only pay for the resources you are using.
+
+	- Cons
+
+		- You do give up some control of the infrastructure when using the public cloud.
+		- There may be security concerns with operating in the public cloud, you need to have security measures in place to avoid unauthorized access to your application and data
+		- It locks you into the specific configuration defined by the cloud provider.
+
+- Private (often referred to as a single-tenant environment)
+
+	- The private cloud model provides many of the benefits of the cloud (things like easy scaling, and elasticity) in a private environment that is dedicated to a single company.
+	- 2 of main reasons why companies choose a private cloud are: Privacy and Regulatory concerns
+
+		- Banks
+		- Medical Providers
+		- Cruise Ship Industry
+
+		  Cruise ships operate in remote areas where Internet access isn't available, but they still want to take advantage of the benefits of the cloud for day-to-day operations of complex ship systems.
+
+	- The bottom linke is that the difference between a public cloud and a private cloud is the privacy of infrastructure and data. It doesn't really matter who owns the infrastructure (company self, or 3rd party hosting provider)
+	- Cons
+
+		- You will likely spend as much on IT as you would in a non-cloud environment.
+		- Once you offload management of your private cloud to a third-party, you lose control of importnat considerations, such as the security of your data.
+
+- Hybrid
+
+	- In a hybrid cloud environment, you may have an application that is running within the public cloud, yet it accesses data that is securely stored on-premises.
+	- Microsoft provides Azure Stack including software and validated hardware to run it, which allows you to run Azure services on-premises.
+
+- Community
+
+	- Similar to a private cloud, but instead of resources being dedicated to a single company, they are dedicated to a community of companies or individuals who manage it together.
+
 ## 2. Azure Services
 
 ### 2.1 Core Azure architectural components
 
+- Azure Regions
+
+	- Microsoft created boundaries called geographies, a geographies boundary is oftentimes the border of the country.
+	- Each geography is broken out into two or more regions
+	- When a customer is creating Azure resources, only the region is visible. (The concept of geographies is an internal implementation of Azure that customer don't really have visibility of when using Azure)
+	- To ensure that data in Azure is safe from disasters and failures due to possible problems in a particular region, customers are encourgaged to replicate data in multiple regions. (Microsoft guarantees round-trip network performance of 2-milliseconds or less between regions.)
+
+- Availability Zones
+
+	- Availabililty Zones aren't available in all Azure regions.
+	- There're at least 3 availability zones within each enabled region
+	- Availability zones provide high-availability and fault tolerance, but they may not help you with disaster recovery.
+	- Two categories of services that support availability zones: Zone Services and Zone Redundant Services
+
+- Azure Resource Manager (ARM)
+
+	- ARM is a service that runs in Azure, and it's reponsible for all interaction with Azure services.
+	- ARM uses declarative syntax.
+	- Benefits of ARM
+
+		- ARM allows your to easily deply multiple Azure resources at once.
+		- ARM makes it possible to reproduce any deployment with consistent results at any point in the future
+		- ARM allows you to create declarative templates for deployment instead of requiring you to write and maintain complex deployment scripts.
+		- AMR makes it possible to set up dependencies so that your resources are deployed in the right order every time.
+
+- Resource Groups
+
+	- Logical container for Azure resources. By creating all Azure services associated with a particular application in a single resource group, you can then deploy and manage all of those services as a single entry.
+	- Pros
+
+		- You can easily set up deployments using an ARM template.
+		- You can name a resource group with an esily-recognizable name so that you can see all Azure resources used in a particular application at a glance
+
+	- An Azure resource can only exist in ONE resource group
+
 ### 2.2 Some of Core Products Available in Azure
+
+- Azure Compute
+
+	- Azure Virtual Machines
+
+		- A software-based computer that runs on a physical computer (host)
+		- The host computer runs software called a hypervisor that can create and manage one or more VMs, and those VMs are commonly referred to as guests.
+		- Availability Set
+
+			- Fault Domains: a logical representation of the physical rack in which a host computer is installed. By default, Azure assigns 2 fault domains to an availability set.
+			- Update Domains: are designed to protect you from a situation where the host computer is beting rebooted. When you create ans availability set, Azure creates 5 update domains by default.
+			- 
+
+		- Scale Set
+
+			- Scale sets are deployed in availability set automatically
+			- Azure Auto-Scale Feature
+			- The "Scaling Availability Sets" functinality has been replaced with Scale Sets.
+
+	- Azure App Service
+	- Container Offerings in Azure
+
+		- The concept of "Containers" was invented to help with the problem of moving to the cloud while dealing with the complexities of moving to a new environment, and to make it easier to shift applications into new enviornments
+		- A Container is created using a zipped version of an application called an Image, and it includes everything the application needs to run. (e.g. including a database engine, a web server, and so on)
+		- In order to run an application in a container, a computer needs to have a container runtime installed on it, the most popular container runtime is Docker (by Docker Inc)
+		- Each container operates within an isolated environment, which makes containized applications an ideal solution when security is concern.
+		- Azure Container Instances (ACI) is a PaaS service that makes it easy to start a container wihtin minimal configuration
+		- ACI is designed to work with simple application.
+		- If an application is used heavily by many people and that might need to take advantage of scaling, ACI isn't a good choice, instead, Azure's Kubernetes Service (AKS) world by a better choice.
+
+			- Kubernetes is a container orchestration service
+			- Kubernetes creates containers in a pod. A pod is a group of related contrainers, and containers within a pod are able to share resources
+			- The computer that Kubernetes pods are running on is called a node or a worker.
+
+	- Serverless Computing
+
+- Azure Networking
+
+	- Azure Virtual Network (VNET)
+	- Azure Load Balancer
+	- Azure Application Gateway
+
+		- A load balancer that's specifically designed to deal with HPPT traffic.
+
+	- VPN Gateway
+
+		- Site-to-Site VPN (S2S): connects your VNET to a single on-premises location. Requires a VPN with public-facing IP address on-premises. A multi-site variant allows you to connect to multiple on-premises locations.
+		- Point-to-Site VPN (P2S): Connects one specific on-premises client PC to your VNET. Multiple clients can connect, but each one connects over its own VPN client.
+		- VNET-to-VNET: Connects two Azure VNETs to each other. Useful in situations where you have two VNETs in different Azure regions and you want to securely connect them
+		- If no need gateway
+
+			- VNET Peering: Establish communication between two Azure VNETs in the same region.
+			- Global VNET Peering: Connect VNETs in different Azure regions.
+
+	- Azure Content Delivery Network (CDN)
+
+		- Typically used with images, videos, and other similarly large files
+		- A CDN works by storing a cached version of files on a point-of-presense (POP) server that is located on the outside edge of a network.
+
+	- Azure Traffic Manager
+
+		- A domain name system (DNS)-based system that's designed to enhance the speed and reliability of your appication.
+		- Routing Rules
+
+			- Priority
+			- Weighted
+			- Performance
+			- Geographic
+			- Multivalue
+			- Subnet
+
+- Azure Storage
+
+	- Azure Blob Storage
+
+		- Designed for storing unstructured data, including text files, images, videos, documents, and much more.
+		- An entity stored in Blob Storage is referred to as a blob.
+
+			- Block blobs: used to store files used by an application
+			- Append blobs: lik block blobs, but append blobs are specialized for append operations. Often used to store constantly updated data like diagnostic logs.e
+			- Page blobs: used to store virtual hard drive (.vhd) files that are used in Azure virtual machines.
+
+	- Azure Queue Storage
+	- Azure Disk Storage
+	- Azure Files
+
+- Azure Database
+
+	- Azure SQL Database
+
+		- a PaaS offering for SQL server database hosting
+		- Relational Database System: SQL Server, Oracle, PostgreSQL, MySQL
+		- In general, relational databases don't offer the capability of scaling out to provide additional copies of your data in multiple regions
+
+	- Azure Cosmos DB
+
+		- NoSQL database system, which you're not locked into a schema for data
+		- There're many different NoSQL DB system, and most of them are geared toward a particulsar database model. Microsoft offers a hosted NoSQL DB System in Azure called Cosmos DB
 
 ### 2.3 Some of Solutions Available on Azure
 
+- Internet of Things (IoT)
+
+	- Azure IoT Hub
+	- Azure IoT Central
+
+- Big Data and Analytics
+
+	- Azure SQL Data Warehouse
+
+		- When you analyze data in SQL Data Warehouse, you run complex SQL queries against the data
+		- SQL DWH provide secure authentication, both SQL Server Authentication in the connection string, and Azure AD
+		- While data in SQL DWH, it's encrypted using Transparent Data Encryption (TDE) AES-256 encryption.
+		- Two Performance Tiers available
+
+			- The Gen1 performance tier measures compute resources in DWH Units (DWU). When you scale Gen1 DWH for more pwer, you add DWUs.
+			- The Gen2 tier uses compute DWH Units, or cDWUs. The difference is that Gen2 uses a local disk-based cache in order to improve performance.
+
+		- Way of load data into SQL DWH
+
+			- Queries against the database
+			- ADF Compy
+			- SQL Server Integration Services
+			- Command Line
+
+	- Azure Data Lake Storage
+	- Azure HDInsight
+
+- Artificial Intelligence
+
+	- Databricks
+
+		- Databricks: works with 3rd-party ML frameworks to allow you to build ML models
+		- Databricks is based on Apache Spark, an open source system for doing computer work in a clustered environment
+
+	- Azure Machine Learning Service
+	- Azure Machine Learning Studio
+
+- Serverless Computing
+
+	- Azure Functions
+	- Azure Logic Apps
+	- Azure Event Grid
+
 ### 2.4 Azure Management Tools
+
+- The Azure Portal
+- Azure and PowerShell
+- Azure CLI
+- Azure Advisor
 
 ## 3. Security, Privacy, Compliance and Truse
 
