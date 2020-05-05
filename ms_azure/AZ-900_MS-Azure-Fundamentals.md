@@ -321,23 +321,133 @@ One of the primary benefits for moving to the cloud is removing some of the IT b
 
 ### 3.1 Securing Network Connectivity in Azure
 
+- Azure Firewall: a stateful firewall
+
+	- A centralized hub network that contains the Azure Firewall and a VM that operates as a jumpbox. The firewall exposes a public IP address, but the jumpbox VM does not.
+	- One or more additional network (called spoke networks) that don't expose a public IP address.
+
+- DDoS Protection
+
+	- You can add virtual networks from multiple Azure subscriptions to the same DDoS protection plan.
+	- During a DDoS event, Standard tier allows you to stream logs to a security information and event management (SIEM) system.
+
+- Network Security Groups (NSG)
+
+	- An NSG contains several built-in rules provided by Azure that are designed to allow your resources in the virtual network to communicate with each other.
+
 ### 3.2 Core Azure Identity Services
+
+- Azure Active Directory (AAD)
+
+	- A cloud-based identity service in Azure that can help you to authenticate and authorize users.
+	- The core of Azure AD is a directory of users. Each user has an identity that's comprised of a user ID, a password, and other properties.
+	- Azure AD B2B allows you to invite guest users to your Azure AD from other businesses.
+	- Azure AD B2C allows you to give users access to Azure AD application by signing in with existing accounts such as a Facebook or Google account
+
+- Multi-factor Authentication
+
+	- Free version of Azure AD that everyone with an Azure subscription gets
+	- Non-Free: Azure AD Basic
+	- Non-Free: Azure AD Premium P1
+	- Non-Free: Azure AD Premium P2
+	- Conditional Access requires a Premium Plan for Azure AD
 
 ### 3.3 Security Tools and Features of Azure
 
+- Azure Security Center
+
+	- Free tier provides general assessment and recommendations for securing your Azure resources and covers only Azure virtual machines and Azure App Service.
+	- Standare tier adds coverage of your Azure SQL Databases, MySQL databases, PostgreSQL, and Azure blob storage, as weel as additionalfeatures such as advanced threat detection, analysis from Microsoft Threat Intelligence, and the ability to manage the regulatory compliance
+
+		- Standard Tier is billed by the hour
+
+	- Primary Area
+
+		- Policy & Compliance
+		- Resource Security Hygiene
+		- Threat Protection
+
+- Azure Key Vault
+
+	- Provides a secure way to store secrets, keys, and certificates
+
+		- Standard Pricing Tier
+		- Premium Pricing Tier: keys are stored in hardware security modules (HSMs)
+
+	- Keeping encryption keys in an HSM boundary is required for Federal Information Processing Standard (FIPS) 140-2, so companies that need to maintain compliance with FIPS 140-2 can do so by using the Premium iter of Key Vault
+
+- Azure Information Protection
+- Azure Advanced Threat Protection(ATP)
+
 ### 3.4 Azure Governance Methodologies
+
+- Azure Policy: allows you to define rules that are applied when Azure resources are created and managed.
+- Role-based Access Control (RBAC)
+
+	- 4 elements
+
+		- Security Principal which represents an identity.
+		- Role: what defines how the security principal can interact wiht an Azure resource
+		- Scope: defines the level at which the roles is applied, and it controls how much control the security principla has
+		- Role Assignments
+
+	- RBAC role assignments are additive.
+	- RBAC is enforced by Azure Resource Manager (ARM)
+
+- Locks
+- Azure Advisor is a best-practice analyzer for Azure resources.
 
 ### 3.5 Monitoring and Reporting Options in Azure
 
+- Azure Monitor
+- Azure Service Health
+
 ### 3.6 Privacy, Compliance, and Data Protection Standards in Azure
+
+- Microsoft Privacy Statement
+- Trust Center
+- Service Trust Portal (STP)
+
+	- Compliance Manager
+	- Audit Reports
+	- Data Protection Information
+	- Privacy
+
+- Compliance Manager
+- Azure Government
+- Azure Germany: Physically local data center, operated by a local company named T-Systems International (a subsidiary of Deutsche Telekom)
+- Azure China: Physically local data center, operated by a local company named 21ViaNET
 
 ## 4. Azure Pricing and Support
 
 ### 4.1 Azure Subscriptions
 
+- You can manage your costs in Azure by creating budgets
+- Subscription Options
+
+	- Free Trial
+	- Pay-As-You-Go
+	- Pay-As-You-Go Dev/Test
+
+- Each subscription is associated with a unique identifier called a subscription ID.
+
 ### 4.2 Planning and Management of Costs
 
 ### 4.3 Support Options Available in Azure
+
+- Support Plan for Azure
+
+	- Basic
+	- Developer
+	- Standard
+	- Professional Direct
+	- Premier
+
+- Available Support Channels outside of support plance
+
+	- MSDN Forums
+
+	- Stack Overflow forums
 
 ### 4.4 Azure Service Level Agreements
 
