@@ -15,4 +15,4 @@ Furthermore, if you want to do depth on the knowledge domain, try to gain more t
 
 ### Support or Contact
 
-I'm happy to discuss and exchange Cloud Computing ideas and comments with you, for building up co-learning together. Feel free to drop me your question at [my email](mailto:xiaoqizhao@outlook.com?subject=I%20want%20to%20 know:). Good Luck!
+I'm happy to discuss and exchange Cloud Computing ideas and comments with you, for building up co-learning together. Feel free to drop me your question at [my email](mailto:xiaoqizhao@outlook.com?subject=I%20want%20to%20know:). Good Luck!
