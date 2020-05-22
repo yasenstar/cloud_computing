@@ -214,11 +214,148 @@ Elastic Load Balanceing (ELB)
 
 	- 
 
+## 07 Amazon Simple Notification Service (SNS)
+
+### Use case
+
+- Micro-services which need to talk to each other and need to be decoupled
+- Some events that you simply need to send an email to administrators or system developers informing or some events that happened in your architecture
+
+### What is SNS
+
+- SNS is a flexible, fully managed, pub/sub messaging and mobile communications service
+- SNS coordinates the delivery of message subscribing endpoints and clients, therefore enabling you to send different information to different subscribers.
+- SNS is easy to set tup, operate and send reliable communications
+- SNS allows you to decouple and scale microservices, distributed systems and serverless applications.
+
+### SNS pub/sub messaging for different system in Amazon
+
+- AWS Lambda
+- HTTP/S
+- Amazon SQS
+
+### SNS Mobile Indentificatons allows publishing to different mobile systems
+
+- ADM
+- APNS
+- Baidu
+- GCM
+- MPNS
+- WNS
+
+### Working in the SNS Dashboard
+
 ## 08 Amazon CloudWatch
 
-## 07 Amazon Simple Notification Service (SNS)
+### Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the applications you run onAWS in real time
+
+### Features
+
+- Collect and Track Metrics
+- Collect and Monitor Log Files
+- Set Alarms
+- Automatically React to Changes
+
+### CloudWatch Architecture
+
+- 
+
+### Components
+
+- Metrics
+
+	- Data about the performance of the systems
+	- Represents a time-ordered set of data points that are published to CloudWatch
+	- By default, several services free metrics for resources, e.g. Amazon EC2 instances, Amazon EBS volumes, and Amazon RDS DB instances
+	- Publish your own application metrics
+	- Load all the metrics in your accounts for search, graphing, and alarms
+
+- Alarms
+
+	- Watches a single metric
+	- Performs one or more actions
+
+		- An Amazon EC2 action
+		- An Auto Scaling action
+		- A notification sent to an Amazon SNS topic
+
+	- Invokes actions for sustained state changes only
+
+- Events
+
+	- Near real-time stream of system events that describe changes in AWS resources
+	- Use simple rules to match events and route them to one or more target functions or streams
+	- Aware of operational changes as they occur
+	- Responds to these operational changes and takes corrective action as necessary
+	- Schedule automated actions that self-trigger at certain times using Cron or rate expressions
+
+- Logs
+
+	- Monitor and troubleshoot systems and applications using existing log files (for specific phrases, values, or patterns)
+	- Retrieve the associated log data from CloudWatch Logs
+	- Includes an installable agent for Ubuntu, Amazon Linux, and Windows at no additional charge
+
+- Dashboards
+
+	- Customizable home pages in the CloudWatch console to monitor your resources in a single view
+	- Create customized views of the metrics and alarms for your AWS resources
+	- Create dashboards by using the console, the AWS CLI, or by using the PutDashboard API
 
 ## 09 Amazon CloudFront
 
+### by using CloudFront, you can leverage multiple locations around the world to deliver your content allowing your users to interact with your applications in a lower latency
+
+### Overview: CloudFront is a content delivery network or CDN for short
+
+- Global, Growing Network
+- Secure Content at the Edge
+- Deep Integration with Key AWS Services
+- High Performance
+- Cost Effective
+- Easy To Use
+
+### Types
+
+- Web: Non Streaming Media
+
+	- Speed up distribution of static and dynamic content, for example, .html, .css, .php, and graphics files
+	- Distribute medie files using HTTP or HTTPS
+
+- RTMP: video stream
+
+	- Create an RTMP distribution to speed up distribution of your streaming media files using Adobe Flash Media Server's RTMP protocol.
+	- An RTMP distribution allows an end user to begin playing a media file before the file has finished downloading from a CloudFront edge location
+
+### Q: Which of the following statements best describes Amazon CloudFront?
+
+- Provides a common language for you to describe and provision all the infrastructure resources in your cloud environment
+- Provides topics for high-throughput, push-based, many-to-many messaging
+- Speeds up the delivery of your content to viewers across the globe [Correct]
+- Provides you with data and actionable insights tomonitor your applications
+
 ## 10 AWS CloudFormation
+
+### CloudFormation simplifies the task of repeatedly and predictably creating groups of related resources that power your applications
+
+### Feature
+
+- Fully-managed service
+- Create, update and deltel resources in stacks
+
+### Components: Parameters and Conditions -> Template File -> AWS CloudFormation -> Stack
+
+- Template File: Infrastructure as Code
+
+	- Resources to provision
+	- Text files
+	- JSON or YAML format
+	- Self-documenting environment
+
+- Stack
+
+	- Resources generated
+	- Unit of deployment
+	- Create stack
+	- Update stack
+	- Delete stack
 
