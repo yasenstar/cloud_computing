@@ -24,5 +24,5 @@ This file intends to compare the components name that used by different cloud se
 | IoT                                      |                                           | Internet of Things               | IoT Platform                      |                            |                              |                       |
 | Console                                  | AWS CLI                                   |                                  |                                   |                            |                              |                       |
 | Health Check                             | Amazon Inspector                          | Azure Insights (?)               |                                   |                            |                              |                       |
-|                                          |                                           |                                  |                                   |                            |                              |                       |
+| Security - DDoS                          | Amazon Shield                             |                                  |                                   |                            |                              |                       |
 
