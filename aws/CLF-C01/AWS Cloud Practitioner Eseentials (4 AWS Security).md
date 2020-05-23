@@ -135,5 +135,66 @@
 
 ## (4) Amazon Shield
 
+### AWS Shield is a managed Distributed Denial of Service (DDoS) protection service that safeguards applications running on AWS
+
 ## (5) Security Compliance
+
+### Shared Responsibity and Control
+
+- AWS responsibility
+
+	- Provide highly-secure and controlled platform
+	- Provide wide array of security features
+
+- Customer responsibility
+
+	- Configure IT
+
+### AWS shares security information by
+
+- obtaining industry certifications
+- publishing security and control practices
+- compliance reports, or NDAs
+
+### Assurance programs
+
+- Certifications / Attestations
+- Legal / Regulatory Support
+- Alignments / Frameworks
+
+### Certification and Accreditations
+
+### AWS Compliance Components
+
+- Risk Management
+
+	- Business Plan
+
+		- Includes risk management
+		- Re-evaluated at least biannually
+
+	- Process
+
+		- Identify risks
+		- Implement appropriate measures
+		- Assess various internal/external risks
+
+- Control Environment
+
+	- Includes policies, processes, and control activities to secure the delivery of AWS service offerings
+	- Supprots the operating effectiveness of AWS control framework
+	- Integrates cloud-specific controls
+	- Applies leading industry practices
+
+- Information Security
+
+	- Designed to protect: C.I.A
+	- Publishes security whitepaper
+
+### Customer Compliance
+
+- Review trusted information and document compliance requirements
+- Design and implement control objectives that meet compliance requirements
+- Identify and document controls owned by outside parties
+- Vefiry all control objectives are met and all key controls are designed and operating effectively
 
