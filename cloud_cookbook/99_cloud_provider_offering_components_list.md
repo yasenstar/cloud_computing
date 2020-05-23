@@ -5,7 +5,8 @@ This file intends to compare the components name that used by different cloud se
 | Product                                  | AWS                                       | Azure                            | Aliyun                            | Google Cloud | Huawei Cloud | Tencent Cloud |
 | ---------------------------------------- | ----------------------------------------- | -------------------------------- | --------------------------------- | ------------ | ------------ | ------------- |
 | Virtual Machine                          | Amazon EC2 (Elastic Cloud Compute)        | Compute - Virtual Machines       | ECS (Elastic Compute Service)     |              |              |               |
-| Storage                                  | Amazon S3 (Simple Storage Service)        | Storage - blob, file, table      | OSS (Object Storage Service)      |              |              |               |
+| Storage                                  | Amazon S3 (Simple Storage Service)        | Storage - blob                   | OSS (Object Storage Service)      |              |              |               |
+| Storage                                  | Amazon EBS (Elastic Block Store)          | Storage - file, table            |                                   |              |              |               |
 | Networking                               | Amazon VPC (Virtual Private Cloud)        | Networking - Virtual Network     | Virtual Private Cloud             |              |              |               |
 | Load Balancer                            | Amazon ALB (Application Load Balancer)    | Networking - Load Balancer       | SLB (Server Load Balancer)        |              |              |               |
 | Application Gateway                      |                                           | Networking - Application Gateway |                                   |              |              |               |
