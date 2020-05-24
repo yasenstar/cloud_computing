@@ -76,13 +76,67 @@ Low Latency: E (Edge Locations_
 ### AWS Global Infra, 3 building blocks
 
 - Regions
+
+	- An AWS Region is a physical location in the world that consists of multiple (2 or more) Availability Zones
+	- All AWS Regions are completely isolated one from each other: Highest Standards fault tolerance and stability
+	- Regions are isolated one from each other, AZs are isolated one from each other, BUT ... the AZs in the same Region are connected through low-latency links (2 or more)!
+
 - AZs (Availability Zones)
 
 	- Represents one or more discrete data centers, each DC with redundant power, networking, and connectivity, housed in separate facilities
 	- Running your Apps or services in multiple AZs, you can easily achieve high availability, fault tolerance and scalability
 	- This is not possible if running Apps in a single on-prem data center
+	- One Availability Zone = One Data Center
+	- What's inside the "box"?
+
+		- Servers
+		- Networking
+		- Storage
+		- Balancers equipment
 
 - Edge Locations
 
-### AWS Mgmt Interfaces
+	- Amazon CloudFront is a fast content delivery network (CDN) service that securely delivers data, videos, apps to customers globally with low latency and high transfer speeds
+	- Amazon CloudFront uses a global network of 166 Points of Presense (155 Edge Locations and 11 Regional Edge Caches) in 65 cities across 29 countries)
+	- Edge Locations vs. Regional Edge Caches
+
+		- CloudFront helps you deliver your web content faster to your end users, thus providing a better user experience
+		- CloudFront Edge Locations bring the web content closer to your viewers and make sure that popular content can be served quickly
+		- CloudFront Regional Edge Caches really help when the content is not popular enough to stay at a CloudFront Edge Location and improve delivery performance for that content
+
+### AWS Mgmt Interfaces: AWS provides 3 distinct options in order to interact with the AWS Cloud Platform
+
+- AWS Management Console
+
+	- A graphical user interface (GUI) for accessing a wide range of AWS Cloud services and managing compute, storage, and other cloud resources
+	- A web applications that comprises and refers to a broad collection of software consoles for managing Amazon Web Services
+
+- AWS Command Line Interface (CLI)
+
+	- A unified tool to manage AWS services
+	- With just one tool to download and configure, you can control multiple AWS services from the command line and automate them through scripts
+	- After AWS CLI tool installation, you can begin making calls to your AWS services from the command line
+
+- AWS Software Development Kits (SDKs)
+
+	- A set of tools that allow developers to create software or apps for a specific platform, OS, computer system or device
+	- Using SDKs, you can access and manage AWS services with your preferred development language or platform
+
+## AWS Core Services
+
+### Billing Alarm for AWS
+
+- 子主题 1
+
+### Identity Access Management (IAM)
+
+### Virtual Private Cloud (VPC)
+
+### Elastic Compute Cloud (EC2)
+
+### Security Groups (SGs)
+
+### Elastic Block Store (EBS)
+
+### Simple Storage Service (S3)
 
