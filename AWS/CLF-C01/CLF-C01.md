@@ -49,14 +49,39 @@
 	- Because usage from hundreds of thousands of customers is aggregated in the cloud, providers such as AWS can achieve higher economies of scale, which translates into lower pay-as-you-go prices
 
 - 3) Stop guessing about capacity
+
+	- Eliminate guessing on your infra capacity needs
+	- While guessing, you often end up either sitting on expensive idel resources or dealing with limited capacity
+	- You can access as much as little capacity as you need and scale up and down as required
+
 - 4) Increase speed and agility
+
+	- Reduce the time to make IT resources available to your developers from weeks to just minutes
+	- This results in a dramatic in a dramatic increase in agility for the org, since the cost and time it takes to experiment and develop is significantly lower
+	- New server to PROD time?
+
 - 5) Stop spending money running and maintaining DCs
+
+	- You focus on project that differentiate your business, not the infra; let AW take care of the infra! STOP Wasting Money!
+	- AWS will take care of the actual room (DC), power, cooling, racks, servers, cabling, storage, network, security equipment, guards
+	- Focus on your business!
+
 - 6) Go global in minutes
 
-### AWS Global Infra
+	- Easily deploy your app in multiple regions aournd the world with just a few clicks
+	- This means you can provide lower latency and a better experience for your customers at minimual cost
+	- Global Reach: R (Regions) | AZ (Availability Zones)
+Low Latency: E (Edge Locations_
+
+### AWS Global Infra, 3 building blocks
 
 - Regions
-- AZs
+- AZs (Availability Zones)
+
+	- Represents one or more discrete data centers, each DC with redundant power, networking, and connectivity, housed in separate facilities
+	- Running your Apps or services in multiple AZs, you can easily achieve high availability, fault tolerance and scalability
+	- This is not possible if running Apps in a single on-prem data center
+
 - Edge Locations
 
 ### AWS Mgmt Interfaces
