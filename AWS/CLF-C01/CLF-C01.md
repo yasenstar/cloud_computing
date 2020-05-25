@@ -126,9 +126,41 @@ Low Latency: E (Edge Locations_
 
 ### Billing Alarm for AWS
 
-- 子主题 1
-
 ### Identity Access Management (IAM)
+
+- AWS IAM is a web service that helps you securely control acces to AWS resources
+- You use IAM to control who is authenticated (signed in) and authorized (have permissions) to use what resources
+- The key is that IAM is representated by these two concetps
+
+	- Authenticaton
+	- Authorization
+
+- 4 key contents
+
+	- User: a permanent named operator; can be a human or it can be a machine, or another AWS service
+
+		- Authentication credentials are permanent
+
+	- Group: a collection of users and usually contains multiple users; a user can belong to multiple groups
+
+		- Authentication credentials are permanent
+
+	- Role: an operator too, another authentication method just like a user; a role can be as well a human or another AWS service
+
+		- Authentication credentials are temporary
+
+	- Policy Document
+
+		- Once a user/role is authenticated by AWs, it will be given permissions (authorized) based on policy document(s) that are attached to it
+		- Policy Documents (JSON Format) can be attached to a user, group or role; if policy is attached to group, once a user joins the group, it will inherit the attached policies
+		- JSON - JavaScript Object Notation
+
+	- Full Picture
+
+		- A principal (or operator), human or AWS service, makes a request for an action on an AWS resource (API call)
+		- First, the user is authenticated, based on username/password pair or access key ID / secret access key (programmatic access - CLI, API, SDK)
+		- The user's action will be permitted (authorized) based on attached policies
+		- Every API call will be recorded in AWS by CloudTrail
 
 ### Virtual Private Cloud (VPC)
 
