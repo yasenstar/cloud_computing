@@ -78,6 +78,39 @@
 	- Independent lifecycle than EC2 instance
 	- Multiple volumes striped to create large volumes
 
+- Amazon EFS (Elastic File System)
+
+	- File storage in the AWS Cloud
+	- Shared storage
+	- Petabyte-scale file system
+	- Elastic capacity
+	- Supports NFS v4.0 and 4.1 (NFSv4) protocol
+	- Compatible with Linux-based AMIs for Amazon EC2
+
+- Amazon S3
+
+	- Consistency model
+	- Storage classes & Durability - Standard, Standard-IA
+	- Encryption (data at rest) - SSE-S3, SSE-KMS, SSE-C
+	- Encryption (data in transit) - HTTPS
+	- Versioning
+	- Access control
+	- Multi-part upload
+	- Internet-API accessible
+	- Virtually unlimited capacity
+	- Regional Availability
+	- Highly Durable - 11 9, 99.999999999%
+
+- Amazon Glacier
+
+	- Data backup and archive storage
+	- Vaults and archives
+	- Retrievals - expedited, standard, bulk
+	- Encryption, by default
+	- Amazon S3 object lifecycle policy
+	- Regionally availability
+	- Highly durable - 99,999999999%
+
 ### Determine how to design decoupling mechanisms using AWS services
 
 ### Determin how to design a multi-tier architecture solution
