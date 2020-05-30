@@ -11,6 +11,8 @@ As there're so many clouds knowledge to be learnt, linking to the working experi
 
 Also, cloud computing is so much connecting with information security and compliance, then netting with ISC2, ISACA, etc.. are also beneficial.
 
+- After CISSP, the CCSP is then the linking point from Security to Cloud!
+
 Furthermore, if you want to do depth on the knowledge domain, try to gain more things on Financial Management (CMA, CIMA), Business Continuity and Disaster Recovery, and also Business Architecture are making you looking from the bird-view then hand-on always
 
 ### Support or Contact
