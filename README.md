@@ -1,5 +1,7 @@
 ## Welcome to Yasen's Learning Page on Cloud Computing
 
+__my current focus: ISC2's CCSP__
+
 This is the tracking site for showing learning path of Yasen approaching cloud computing knowledge.
 
 As there're so many clouds knowledge to be learnt, linking to the working experience, I'm focusing on following body of knowledge:
