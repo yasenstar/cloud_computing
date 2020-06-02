@@ -149,8 +149,10 @@ I'm happy to discuss and exchange Cloud Computing ideas and comments with you, f
 
 └─ms_azure
 
-        AZ-900_MS-Azure-Fundamentals.md
+│  │
+
+│  └─AZ-900_MS-Azure-Fundamentals.md
         
-        AZ-900_MS-Azure-Fundamentals.png
+│  └─AZ-900_MS-Azure-Fundamentals.png
         
-        Azure Solutions Architect Expert.md
+│  └─Azure Solutions Architect Expert.md
