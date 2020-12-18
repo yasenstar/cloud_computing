@@ -1,0 +1,18 @@
+Webapp 'apiapp44233296' already exists. The command will deploy contents to the existing app.
+Creating zip with contents of dir /home/zhao/aspnet-learn/src/ContosoPets.Api ...
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+You can launch the app at http://apiapp44233296.azurewebsites.net
+{
+  "URL": "http://apiapp44233296.azurewebsites.net",
+  "appserviceplan": "plan44233296",
+  "location": "centralus",
+  "name": "apiapp44233296",
+  "os": "Windows",
+  "resourcegroup": "learn-52899a45-19b9-4d25-aaae-109856f4ba40",
+  "runtime_version": "dotnetcore|3.1",
+  "runtime_version_detected": "3.1",
+  "sku": "FREE",
+  "src_path": "//home//zhao//aspnet-learn//src//ContosoPets.Api"
+}
