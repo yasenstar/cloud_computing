@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/zhao/aspnet-learn/src/ContosoPets.Ui/ContosoPets.Ui.csproj": {}
+    "/Users/yasen/Documents/GitHub/cloud_computing/Azure/AZ-500/aspnet-learn/ContosoPets.Ui/ContosoPets.Ui.csproj": {}
   },
   "projects": {
-    "/home/zhao/aspnet-learn/src/ContosoPets.Ui/ContosoPets.Ui.csproj": {
+    "/Users/yasen/Documents/GitHub/cloud_computing/Azure/AZ-500/aspnet-learn/ContosoPets.Ui/ContosoPets.Ui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/zhao/aspnet-learn/src/ContosoPets.Ui/ContosoPets.Ui.csproj",
+        "projectUniqueName": "/Users/yasen/Documents/GitHub/cloud_computing/Azure/AZ-500/aspnet-learn/ContosoPets.Ui/ContosoPets.Ui.csproj",
         "projectName": "ContosoPets.Ui",
-        "projectPath": "/home/zhao/aspnet-learn/src/ContosoPets.Ui/ContosoPets.Ui.csproj",
-        "packagesPath": "/home/zhao/.nuget/packages/",
-        "outputPath": "/home/zhao/aspnet-learn/src/ContosoPets.Ui/obj/",
+        "projectPath": "/Users/yasen/Documents/GitHub/cloud_computing/Azure/AZ-500/aspnet-learn/ContosoPets.Ui/ContosoPets.Ui.csproj",
+        "packagesPath": "/Users/yasen/.nuget/packages/",
+        "outputPath": "/Users/yasen/Documents/GitHub/cloud_computing/Azure/AZ-500/aspnet-learn/ContosoPets.Ui/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/zhao/.nuget/NuGet/NuGet.Config"
+          "/Users/yasen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Client": {
               "target": "Package",
@@ -89,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/zhao/.dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
