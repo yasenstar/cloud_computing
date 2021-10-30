@@ -1,8 +1,11 @@
 # Appreviation in Cloud Computing
 
-| Term  | Full Name                                  | Source / Memo |
-| ----- | ------------------------------------------ | ------------- |
-| AADIP | Azure Active Directory Identify Protection | AZ-500        |
-| PIM   | Privileged Identity Management             | AZ-500        |
-|       |                                            |               |
+| Term  | Full Name                                  |
+| ----- | ------------------------------------------ |
+| AADC  | Azure Active Directory Connect             |
+| AADIP | Azure Active Directory Identify Protection |
+| ADFS  | Active Directory Federation Service        |
+| LDAP  | Lightweight Directory Access Protocol      |
+| PIM   | Privileged Identity Management             |
+|       |                                            |
 
