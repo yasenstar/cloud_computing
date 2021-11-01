@@ -12,6 +12,8 @@
 | ARPANET   | Advanced Research Development Projects Agency Network        |
 | ASDK      | Azure Stack Development Kit                                  |
 | ASH       | Azure Stack Hub                                              |
+| ASN       | Autonomous System Number                                     |
+| BGP       | Border Gateway Protocol                                      |
 | BMC       | ASH Baseboard Management Controller                          |
 | CIDR      | Classless Inter-Domain Routine                               |
 | CIL       | Common Intermediate Language                                 |
@@ -50,6 +52,7 @@
 | PIM       | Privileged Identity Management                               |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
+| SLB       | Software Load Balancer                                       |
 | SSH       | Secure Shell                                                 |
 | SOC       | AICPA Service Organization Control                           |
 | TOR       | ASH Top-Of-Rack Switches                                     |
