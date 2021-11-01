@@ -2,11 +2,12 @@
 
 | Term      | Full Name                                                    |
 | --------- | ------------------------------------------------------------ |
+| AAD       | Azure Active Directory (AD)                                  |
 | AADC      | Azure Active Directory Connect                               |
 | AADIP     | Azure Active Directory Identify Protection                   |
 | ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
-| ADFS      | Active Directory Federation Service                          |
+| AD FS     | Active Directory Federation Service                          |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
 | AKS       | Azure Kubernetes Service                                     |
 | ARPANET   | Advanced Research Development Projects Agency Network        |
@@ -15,11 +16,13 @@
 | ASN       | Autonomous System Number                                     |
 | BGP       | Border Gateway Protocol                                      |
 | BMC       | ASH Baseboard Management Controller                          |
+| CA        | Certificate Authority                                        |
 | CIDR      | Classless Inter-Domain Routine                               |
 | CIL       | Common Intermediate Language                                 |
 | CLR       | Microsoft's Common Language Runtime                          |
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
+| CSR       | Certificate Signing Request                                  |
 | DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
 | ECR       | AWS Elastic Container Registry                               |
@@ -45,6 +48,7 @@
 | NAT       | Network Address Translation                                  |
 | NCSC      | UK's National Cyber Security Center                          |
 | NSG       | Microsoft Network Security Group                             |
+| NTP       | Network Time Protocol                                        |
 | NVA       | Network Virtual Appliance                                    |
 | OCI       | Open Container Initiative                                    |
 | PAYG      | Pay-As-You-Go                                                |
@@ -55,6 +59,8 @@
 | SLB       | Software Load Balancer                                       |
 | SSH       | Secure Shell                                                 |
 | SOC       | AICPA Service Organization Control                           |
+| SPN       | Service Principal Name                                       |
+| STS       | Security Token Service                                       |
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
 | VMM       | Virtual-Machine Monitor (hypervisor)                         |
