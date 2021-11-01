@@ -1,4 +1,4 @@
-# Appreviation in Cloud Computing
+# Abbreviation in Cloud Computing
 
 | Term      | Full Name                                                    |
 | --------- | ------------------------------------------------------------ |
@@ -11,17 +11,23 @@
 | CLR       | Microsoft's Common Language Runtime                          |
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
+| DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
+| ECMP      | Equal-Cost Multi-Path                                        |
+| ERCS      | ASH Emergency Recovery Console                               |
 | GAE       | Google App Engine                                            |
 | GCDS      | Google Cloud Directory Sync                                  |
 | GCP       | Google Cloud Platform                                        |
-| HLL       | High-Level Languge VMs                                       |
+| HLL       | High-Level Language VMs                                      |
 | IAM       | Identity and Access Management                               |
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
 | LDAP      | Lightweight Directory Access Protocol                        |
+| NAT       | Network Address Translation                                  |
 | NCSC      | UK's National Cyber Security Center                          |
 | OCI       | Open Container Initiative                                    |
+| PAYG      | Pay-As-You-Go                                                |
+| PEP       | Privileged EndPoint                                          |
 | PIM       | Privileged Identity Management                               |
 | RBAC      | Role-Based Access Control                                    |
 | SOC       | AICPA Service Organization Control                           |
