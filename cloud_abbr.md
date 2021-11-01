@@ -4,6 +4,7 @@
 | --------- | ------------------------------------------------------------ |
 | AADC      | Azure Active Directory Connect                               |
 | AADIP     | Azure Active Directory Identify Protection                   |
+| ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
 | ADFS      | Active Directory Federation Service                          |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
@@ -42,11 +43,13 @@
 | NAT       | Network Address Translation                                  |
 | NCSC      | UK's National Cyber Security Center                          |
 | NSG       | Microsoft Network Security Group                             |
+| NVA       | Network Virtual Appliance                                    |
 | OCI       | Open Container Initiative                                    |
 | PAYG      | Pay-As-You-Go                                                |
 | PEP       | Privileged EndPoint                                          |
 | PIM       | Privileged Identity Management                               |
 | RBAC      | Role-Based Access Control                                    |
+| S2S       | Site-to-Site                                                 |
 | SSH       | Secure Shell                                                 |
 | SOC       | AICPA Service Organization Control                           |
 | TOR       | ASH Top-Of-Rack Switches                                     |
