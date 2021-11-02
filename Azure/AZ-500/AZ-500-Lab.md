@@ -257,3 +257,17 @@ $lockName = (Get-AzResourceLock -ResourceGroupName AZ500LAB03 -ResourceName $sto
 
 Result is `Delete Lock`
 
+Actual command to remove lock:
+
+```powershell
+Remove-AzResourceLock -LockName $lockName -ResourceName $storageAccountName -ResourceGroupName AZ500LAB03 -ResourceType Microsoft.Storage/storageAccounts -Force
+```
+
+Remove the Resource Group `AZ500LAB03`:
+
+```powershell
+Remove-AzResourceGroup -Name "AZ500LAB03" -Force -AsJob
+```
+
+
+
