@@ -26,6 +26,7 @@
 | CNCF      | Cloud Native Computing Foundation                            |
 | CSR       | Certificate Signing Request                                  |
 | DDoS      | Distributed Denial of Service                                |
+| DSC       | Desired State Configuration                                  |
 | DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
 | ECR       | AWS Elastic Container Registry                               |
@@ -48,21 +49,24 @@
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
 | LDAP      | Lightweight Directory Access Protocol                        |
+| MMA       | Microsoft Monitoring Agent                                   |
 | NAT       | Network Address Translation                                  |
 | NCSC      | UK's National Cyber Security Center                          |
 | NSG       | Microsoft Network Security Group                             |
 | NTP       | Network Time Protocol                                        |
 | NVA       | Network Virtual Appliance                                    |
 | OCI       | Open Container Initiative                                    |
+| PAW       | Privileged Access Workstations                               |
 | PAYG      | Pay-As-You-Go                                                |
 | PEP       | Privileged EndPoint                                          |
 | PHS       | Password Hash Synchronization                                |
 | PIM       | Privileged Identity Management                               |
 | PTA       | Pass-Through Authentication                                  |
+| RDP       | Remote Desktop Protocol                                      |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
 | SLB       | Software Load Balancer                                       |
-| SSH       | Secure Shell                                                 |
+| SSH       | Secure Shell Protocol                                        |
 | SOC       | AICPA Service Organization Control                           |
 | SPN       | Service Principal Name                                       |
 | STS       | Security Token Service                                       |
