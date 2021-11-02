@@ -135,10 +135,34 @@
 2. List the Azure AD groups
 
    ```bash
-   az
+   az ad group list -o table
    ```
 
    
 
-3. 
+3. Obtain a reference to the user account of Dylan Williams
+
+   ```bash
+   USER=$(az ad user list --filter "displayname eq 'Dylan Williams'")
+   ```
+
+   
+
+4. Obtain the objectId property of the user account of Dylan Williams
+
+   ```bash
+   OBJECTID=$(echo $USER | jq '.[].objectId' | tr -d '"')
+   ```
+
+   
+
+5. Add the user account of Dylan to the Service Desk group
+
+   ```bash
+   az ad group member add --group "Service Desk" --member-id $OBJECTID
+   ```
+
+   
+
+6. 
 
