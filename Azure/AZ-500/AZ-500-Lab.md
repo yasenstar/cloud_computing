@@ -180,3 +180,21 @@ Remove the resource group:
 Remove-AzResourceGroup -Name "AZ500LAB01" -Force -AsJob
 ```
 
+
+
+## Implement Azure Policy
+
+Create a resource group:
+
+```powershell
+New-AzResourceGroup -Name AZ500LAB02 -Location 'East US'
+```
+
+
+
+List Resource Groups to verify the new resource group was created:
+
+```powershell
+Get-AzResourceGroup | format-table
+```
+
