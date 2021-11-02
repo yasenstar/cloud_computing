@@ -172,3 +172,11 @@
 
    
 
+## Clean up Resources
+
+Remove the resource group:
+
+```powershell
+Remove-AzResourceGroup -Name "AZ500LAB01" -Force -AsJob
+```
+
