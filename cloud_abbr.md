@@ -24,6 +24,7 @@
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
 | CSR       | Certificate Signing Request                                  |
+| DDoS      | Distributed Denial of Service                                |
 | DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
 | ECR       | AWS Elastic Container Registry                               |
@@ -66,6 +67,7 @@
 | STS       | Security Token Service                                       |
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
+| UDR       | User Defined Router                                          |
 | VMM       | Virtual-Machine Monitor (hypervisor)                         |
 | VNet      | Azure Virtual Network                                        |
 | WSC       | Wholesale-Scale Computer                                     |
