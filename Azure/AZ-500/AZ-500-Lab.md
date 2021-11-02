@@ -172,7 +172,7 @@
 
    
 
-## Clean up Resources
+### Clean up Resources
 
 Remove the resource group:
 
@@ -205,4 +205,55 @@ List Resource Groups to verify the new resource group was created:
 ```powershell
 Get-AzResourceGroup | format-table
 ```
+
+
+
+## Create a Resource Group with a Storage Account
+
+Create a resource group:
+
+```powershell
+New-AzResourceGroup -Name AZ500LAB03 -Location 'EastUS'
+```
+
+Note: "East US" or "EastUS" are both OK
+
+
+
+Create a storage account in the newly resource group:
+
+```powershell
+New-AzStorageAccount -ResourceGroupName AZ500LAB03 -Name (Get-Random -Maximum 999999999999999) -Location EastUS -SkuName Standard_LRS -Kind StorageV2
+```
+
+### Clean Up Resources
+
+Remove the Delete Lock, first get the Storage Account Name:
+
+```powershell
+$storageAccountName = (Get-AzStorageAccount -ResourceGroupName AZ500LAB03).StorageAccountName
+```
+
+Using `$storageAccountName` to show what name got from above command, the results are:
+
+```powershell
+19740409
+228035439448386
+```
+
+The lab intends to delete the 2nd one, as this is one array, using below command instead to get the correct reference:
+
+```powershell
+$storageAccountName = (Get-AzStorageAccount -ResourceGroupName AZ500LAB03).StorageAccountName[1]
+```
+
+The get result `228035439448386`
+
+Get the Lock Name:
+
+```powershell
+$lockName = (Get-AzResourceLock -ResourceGroupName AZ500LAB03 -ResourceName $storageAccountName -ResourceType Microsoft.Storage/storageAccounts).Name
+```
+
+Result is `Delete Lock`
 
