@@ -96,3 +96,14 @@
 
 
 
+## Use Azure CLI (Bash) to create a user account
+
+1. Identify the name of Azure AD tenant:
+
+   ```bash
+   DOMAINNAME=$(az ad signed-in-user show --query 'userPrincipalName' | cut -d '@' -f 2 | sed 's/\"//')
+   ```
+
+   
+
+2. 
