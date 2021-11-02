@@ -5,6 +5,7 @@
 | AAD       | Azure Active Directory (AD)                                  |
 | AADC      | Azure Active Directory Connect                               |
 | AADIP     | Azure Active Directory Identify Protection                   |
+| ACI       | Microsoft Azure Container Instances                          |
 | ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
 | AD DS     | Azure Active Directory Domain Services                       |
