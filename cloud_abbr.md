@@ -68,6 +68,7 @@
 | STS       | Security Token Service                                       |
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
+| TPM       | Trusted Platform Module 2.0                                  |
 | UDR       | User Defined Router                                          |
 | VMM       | Virtual-Machine Monitor (hypervisor)                         |
 | VNet      | Azure Virtual Network                                        |

@@ -182,6 +182,14 @@ Remove-AzResourceGroup -Name "AZ500LAB01" -Force -AsJob
 
 
 
+Remove the resource group:
+
+```powershell
+Remove-AzResourceGroup -Name "AZ500LAB02" -Force -AsJob
+```
+
+
+
 ## Implement Azure Policy
 
 Create a resource group:
