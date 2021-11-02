@@ -164,5 +164,11 @@
 
    
 
-6. 
+6. List members of the Service Desk group and verify that it includes the user account of Dylan
+
+   ```bash
+   az ad group member list --group "Service Desk"
+   ```
+
+   
 
