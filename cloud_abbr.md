@@ -7,6 +7,7 @@
 | AADIP     | Azure Active Directory Identify Protection                   |
 | ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
+| AD DS     | Azure Active Directory Domain Services                       |
 | AD FS     | Active Directory Federation Service                          |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
 | AKS       | Azure Kubernetes Service                                     |
@@ -53,7 +54,9 @@
 | OCI       | Open Container Initiative                                    |
 | PAYG      | Pay-As-You-Go                                                |
 | PEP       | Privileged EndPoint                                          |
+| PHS       | Password Hash Synchronization                                |
 | PIM       | Privileged Identity Management                               |
+| PTA       | Pass-Through Authentication                                  |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
 | SLB       | Software Load Balancer                                       |
