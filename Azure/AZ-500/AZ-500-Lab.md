@@ -80,4 +80,19 @@
 
    
 
-4. 
+4. Add the user account of Isabel to the Junior Admins group:
+
+   ```powershell
+   Add-AzureGroupMember -MemberUserPrincipalName $user.userPrincipalName -TargetGroupDisplayName "Junior Admins"
+   ```
+
+   
+
+5. Verify that the Junior Admins group contains the user account of Isabel:
+
+   ```powershell
+   Get-AzADGroupMember -GroupDisplayName "Junior Admins"
+   ```
+
+
+
