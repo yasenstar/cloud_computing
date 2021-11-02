@@ -13,6 +13,7 @@
 | AKS       | Azure Kubernetes Service                                     |
 | ARPANET   | Advanced Research Development Projects Agency Network        |
 | ASDK      | Azure Stack Development Kit                                  |
+| ASG       | Application Security Groups                                  |
 | ASH       | Azure Stack Hub                                              |
 | ASN       | Autonomous System Number                                     |
 | BGP       | Border Gateway Protocol                                      |
@@ -70,5 +71,6 @@
 | UDR       | User Defined Router                                          |
 | VMM       | Virtual-Machine Monitor (hypervisor)                         |
 | VNet      | Azure Virtual Network                                        |
+| WAF       | Web Application Firewall                                     |
 | WSC       | Wholesale-Scale Computer                                     |
 
