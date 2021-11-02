@@ -106,4 +106,39 @@
 
    
 
-2. 
+2. Create a user, Dylan Williams, using above domain name:
+
+   ```bash
+   az ad user create --display-name "Dylan Williams" --password "Pa55w.rd1234" --user-principal-name Dylan@DOMAINNAME
+   ```
+
+   
+
+3. List Azure AD user accounts:
+
+   ```bash
+   az ad user list --output table
+   ```
+
+   
+
+## Use Azure CLI (Bash) to create the Service Desk group and add the user account of Dylan to the group
+
+1. Create a new security group named Service Desk
+
+   ```bash
+   az ad group create --display-name "Service Desk" --mail-nickname "ServiceDesk"
+   ```
+
+   
+
+2. List the Azure AD groups
+
+   ```bash
+   az
+   ```
+
+   
+
+3. 
+
