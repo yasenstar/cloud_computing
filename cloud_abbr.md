@@ -45,12 +45,14 @@
 | GCDS      | Google Cloud Directory Sync                                  |
 | GCP       | Google Cloud Platform                                        |
 | HLL       | High-Level Language VMs                                      |
+| HSM       | Azure Hardware Security Module                               |
 | IAM       | Identity and Access Management                               |
 | ICMP      | Internet Control Message Protocol                            |
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
 | LDAP      | Lightweight Directory Access Protocol                        |
 | MMA       | Microsoft Monitoring Agent                                   |
+| MSAL      | Microsoft Authentication Library                             |
 | NAT       | Network Address Translation                                  |
 | NCSC      | UK's National Cyber Security Center                          |
 | NSG       | Microsoft Network Security Group                             |
