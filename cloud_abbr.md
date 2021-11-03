@@ -12,6 +12,7 @@
 | AD FS     | Active Directory Federation Service                          |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
 | AKS       | Azure Kubernetes Service                                     |
+| ARM       | Azure Resource Manager                                       |
 | ARPANET   | Advanced Research Development Projects Agency Network        |
 | ASDK      | Azure Stack Development Kit                                  |
 | ASG       | Application Security Groups                                  |
