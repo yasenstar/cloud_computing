@@ -48,6 +48,7 @@
 | HSM       | Azure Hardware Security Module                               |
 | IAM       | Identity and Access Management                               |
 | ICMP      | Internet Control Message Protocol                            |
+| IMDS      | Azure Instance MetaData Service                              |
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
 | LDAP      | Lightweight Directory Access Protocol                        |
@@ -71,6 +72,7 @@
 | SLB       | Software Load Balancer                                       |
 | SSH       | Secure Shell Protocol                                        |
 | SOC       | AICPA Service Organization Control                           |
+| SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
 | STS       | Security Token Service                                       |
 | TOR       | ASH Top-Of-Rack Switches                                     |
