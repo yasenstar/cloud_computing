@@ -20,6 +20,7 @@
 | BGP       | Border Gateway Protocol                                      |
 | BMC       | ASH Baseboard Management Controller                          |
 | CA        | Certificate Authority                                        |
+| CER       | Private Key Certificates (.cer)                              |
 | CIDR      | Classless Inter-Domain Routine                               |
 | CIL       | Common Intermediate Language                                 |
 | CLR       | Microsoft's Common Language Runtime                          |
@@ -63,6 +64,7 @@
 | PAW       | Privileged Access Workstations                               |
 | PAYG      | Pay-As-You-Go                                                |
 | PEP       | Privileged EndPoint                                          |
+| PFX       | Private Key Certificates (.pfx)                              |
 | PHS       | Password Hash Synchronization                                |
 | PIM       | Privileged Identity Management                               |
 | PTA       | Pass-Through Authentication                                  |
@@ -72,6 +74,7 @@
 | SLB       | Software Load Balancer                                       |
 | SSH       | Secure Shell Protocol                                        |
 | SOC       | AICPA Service Organization Control                           |
+| SNI       | Server Name Indications                                      |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
 | STS       | Security Token Service                                       |
