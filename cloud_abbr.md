@@ -72,6 +72,7 @@
 | RDP       | Remote Desktop Protocol                                      |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
+| SAS       | Shared Access Signatures                                     |
 | SLB       | Software Load Balancer                                       |
 | SSH       | Secure Shell Protocol                                        |
 | SOC       | AICPA Service Organization Control                           |
