@@ -10,6 +10,7 @@
 | ACR       | Microsoft Azure Contain Registry                             |
 | AD DS     | Azure Active Directory Domain Services                       |
 | AD FS     | Active Directory Federation Service                          |
+| ADS       | Advanced Data Security                                       |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
 | AKS       | Azure Kubernetes Service                                     |
 | ARM       | Azure Resource Manager                                       |
@@ -18,8 +19,10 @@
 | ASG       | Application Security Groups                                  |
 | ASH       | Azure Stack Hub                                              |
 | ASN       | Autonomous System Number                                     |
+| ASR       | Azure Site Recovery                                          |
 | BGP       | Border Gateway Protocol                                      |
 | BMC       | ASH Baseboard Management Controller                          |
+| BPA       | Microsoft Best Practices Analyzer                            |
 | CA        | Certificate Authority                                        |
 | CER       | Private Key Certificates (.cer)                              |
 | CIDR      | Classless Inter-Domain Routine                               |
@@ -28,6 +31,7 @@
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
 | CSR       | Certificate Signing Request                                  |
+| DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
 | DSC       | Desired State Configuration                                  |
 | DVM       | ASH Deployment Virtual Machine                               |
@@ -80,6 +84,7 @@
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
 | STS       | Security Token Service                                       |
+| TDE       | Transparent Data Encryption                                  |
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
 | TPM       | Trusted Platform Module 2.0                                  |
