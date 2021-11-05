@@ -78,11 +78,12 @@
 | S2S       | Site-to-Site                                                 |
 | SAS       | Shared Access Signatures                                     |
 | SLB       | Software Load Balancer                                       |
-| SSH       | Secure Shell Protocol                                        |
-| SOC       | AICPA Service Organization Control                           |
+| SMB       | Server Message Blocks                                        |
 | SNI       | Server Name Indications                                      |
+| SOC       | AICPA Service Organization Control                           |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
+| SSH       | Secure Shell Protocol                                        |
 | STS       | Security Token Service                                       |
 | TDE       | Transparent Data Encryption                                  |
 | TOR       | ASH Top-Of-Rack Switches                                     |
