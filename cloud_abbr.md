@@ -60,6 +60,7 @@
 | JVM       | Java Virtual Machine                                         |
 | KQL       | Microsoft Sentinel Kusto Query Language                      |
 | LDAP      | Lightweight Directory Access Protocol                        |
+| MCAS      | Microsoft Cloud App Security                                 |
 | MMA       | Microsoft Monitoring Agent                                   |
 | MSAL      | Microsoft Authentication Library                             |
 | NAT       | Network Address Translation                                  |
