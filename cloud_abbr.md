@@ -24,6 +24,7 @@
 | BMC       | ASH Baseboard Management Controller                          |
 | BPA       | Microsoft Best Practices Analyzer                            |
 | CA        | Certificate Authority                                        |
+| CEF       | Common Event Format                                          |
 | CER       | Private Key Certificates (.cer)                              |
 | CIDR      | Classless Inter-Domain Routine                               |
 | CIL       | Common Intermediate Language                                 |
@@ -82,12 +83,14 @@
 | SLB       | Software Load Balancer                                       |
 | SMB       | Server Message Blocks                                        |
 | SNI       | Server Name Indications                                      |
+| SOAR      | Security Orchestration, Automation, and Response             |
 | SOC       | Security Operations Center                                   |
 | SOC       | AICPA Service Organization Control                           |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
 | SSH       | Secure Shell Protocol                                        |
 | STS       | Security Token Service                                       |
+| TAXII     | Trusted Automated eXchange of Indicator Information          |
 | TDE       | Transparent Data Encryption                                  |
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
