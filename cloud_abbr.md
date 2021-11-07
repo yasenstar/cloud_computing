@@ -57,6 +57,7 @@
 | IMDS      | Azure Instance MetaData Service                              |
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
+| KQL       | Microsoft Sentinel Kusto Query Language                      |
 | LDAP      | Lightweight Directory Access Protocol                        |
 | MMA       | Microsoft Monitoring Agent                                   |
 | MSAL      | Microsoft Authentication Library                             |
@@ -77,9 +78,11 @@
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
 | SAS       | Shared Access Signatures                                     |
+| SIEM      | Security Information and Event Management                    |
 | SLB       | Software Load Balancer                                       |
 | SMB       | Server Message Blocks                                        |
 | SNI       | Server Name Indications                                      |
+| SOC       | Security Operations Center                                   |
 | SOC       | AICPA Service Organization Control                           |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
