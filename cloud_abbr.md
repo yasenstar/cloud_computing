@@ -23,8 +23,10 @@
 | BGP       | Border Gateway Protocol                                      |
 | BMC       | ASH Baseboard Management Controller                          |
 | BPA       | Microsoft Best Practices Analyzer                            |
+| BYOK      | Bring Your Own Key                                           |
 | CA        | Certificate Authority                                        |
 | CEF       | Common Event Format                                          |
+| CEK       | Content Encryption Key                                       |
 | CER       | Private Key Certificates (.cer)                              |
 | CIDR      | Classless Inter-Domain Routine                               |
 | CIL       | Common Intermediate Language                                 |
@@ -55,6 +57,8 @@
 | IMDS      | Azure Instance MetaData Service                              |
 | ISA       | Instruction-set Architecture                                 |
 | JVM       | Java Virtual Machine                                         |
+| JWK       | JSON Web Key                                                 |
+| KEK       | Key Exchange Key                                             |
 | KQL       | Microsoft Sentinel Kusto Query Language                      |
 | LDAP      | Lightweight Directory Access Protocol                        |
 | MCAS      | Microsoft Cloud App Security                                 |
