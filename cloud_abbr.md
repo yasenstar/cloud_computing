@@ -31,26 +31,23 @@
 | CLR       | Microsoft's Common Language Runtime                          |
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
+| CSO       | Chief Security Officer                                       |
 | CSR       | Certificate Signing Request                                  |
 | DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
 | DSC       | Desired State Configuration                                  |
 | DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
+| ECMP      | Equal-Cost Multi-Path                                        |
 | ECR       | AWS Elastic Container Registry                               |
 | ECS       | AWS Elastic Container Service                                |
 | ELB       | AWS Elastic Load Balancer                                    |
+| ERCS      | ASH Emergency Recovery Console                               |
 | GAE       | Google App Engine                                            |
 | GCDS      | Google Cloud Directory Sync                                  |
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
 | HLH       | ASH Hardware Lifecycle Host                                  |
-| HLL       | High-Level Languge VMs                                       |
-| ECMP      | Equal-Cost Multi-Path                                        |
-| ERCS      | ASH Emergency Recovery Console                               |
-| GAE       | Google App Engine                                            |
-| GCDS      | Google Cloud Directory Sync                                  |
-| GCP       | Google Cloud Platform                                        |
 | HLL       | High-Level Language VMs                                      |
 | HSM       | Azure Hardware Security Module                               |
 | IAM       | Identity and Access Management                               |
