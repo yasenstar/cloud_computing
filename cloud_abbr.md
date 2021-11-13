@@ -52,6 +52,7 @@
 | HLH       | ASH Hardware Lifecycle Host                                  |
 | HLL       | High-Level Language VMs                                      |
 | HSM       | Azure Hardware Security Module                               |
+| IaC       | Infrastructure as Code                                       |
 | IAM       | Identity and Access Management                               |
 | ICMP      | Internet Control Message Protocol                            |
 | IMDS      | Azure Instance MetaData Service                              |
