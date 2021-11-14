@@ -100,6 +100,7 @@
 | SOC       | AICPA Service Organization Control                           |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
+| SSE       | Storage Service Encryption                                   |
 | SSH       | Secure Shell Protocol                                        |
 | SSPR      | Self-Service Password Reset                                  |
 | STS       | Security Token Service                                       |
