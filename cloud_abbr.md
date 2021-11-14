@@ -69,6 +69,7 @@
 | KQL       | Microsoft Sentinel Kusto Query Language                      |
 | LDAP      | Lightweight Directory Access Protocol                        |
 | MCAS      | Microsoft Cloud App Security                                 |
+| MDM       | Mobile Device Management                                     |
 | MMA       | Microsoft Monitoring Agent                                   |
 | MSAL      | Microsoft Authentication Library                             |
 | NAT       | Network Address Translation                                  |
@@ -99,6 +100,7 @@
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
 | SSH       | Secure Shell Protocol                                        |
+| SSPR      | Self-Service Password Reset                                  |
 | STS       | Security Token Service                                       |
 | TAXII     | Trusted Automated eXchange of Indicator Information          |
 | TDE       | Transparent Data Encryption                                  |
