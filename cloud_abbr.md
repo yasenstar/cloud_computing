@@ -53,6 +53,7 @@
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
 | GPOs      | Group Policy Objects                                         |
+| HDFS      | Hadoop Distributed File System                               |
 | HLH       | ASH Hardware Lifecycle Host                                  |
 | HLL       | High-Level Language VMs                                      |
 | HSM       | Azure Hardware Security Module                               |
