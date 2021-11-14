@@ -8,8 +8,11 @@
 | ACI       | Microsoft Azure Container Instances                          |
 | ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
-| AD DS     | Azure Active Directory Domain Services                       |
+| AD CS     | Active Directory Certificate Services                        |
+| AD DS     | Active Directory Domain Services, including AD CS, AD LDS, AD FS, AD RMS |
 | AD FS     | Active Directory Federation Service                          |
+| AD LDS    | Active Directory Lightweight Directory Services              |
+| AD RDS    | Active Directory Rights Management Services                  |
 | ADS       | Advanced Data Security                                       |
 | AICPA SOC | American Institute of Certified Public Accountants Service Organization Control |
 | AKS       | Azure Kubernetes Service                                     |
@@ -49,6 +52,7 @@
 | GCDS      | Google Cloud Directory Sync                                  |
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
+| GPOs      | Group Policy Objects                                         |
 | HLH       | ASH Hardware Lifecycle Host                                  |
 | HLL       | High-Level Language VMs                                      |
 | HSM       | Azure Hardware Security Module                               |
@@ -73,6 +77,7 @@
 | NTP       | Network Time Protocol                                        |
 | NVA       | Network Virtual Appliance                                    |
 | OCI       | Open Container Initiative                                    |
+| OUs       | Organizational Units                                         |
 | PAW       | Privileged Access Workstations                               |
 | PAYG      | Pay-As-You-Go                                                |
 | PEP       | Privileged EndPoint                                          |
