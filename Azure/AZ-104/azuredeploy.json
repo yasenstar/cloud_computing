@@ -4,6 +4,19 @@
     "parameters": {},
     "functions": [],
     "variables": {},
-    "resources": [],
+    "resources": [{
+        "name": "yasenstorage1",
+        "type": "Microsoft.Storage/storageAccounts",
+        "apiVersion": "2021-04-01",
+        "tags": {
+            "displayName": "storageaccount1"
+        },
+        "location": "[resourceGroup().location]",
+        "kind": "StorageV2",
+        "sku": {
+            "name": "Standard_LRS",
+            "tier": "Standard"
+        }
+    }],
     "outputs": {}
 }
