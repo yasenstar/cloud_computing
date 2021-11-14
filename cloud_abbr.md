@@ -57,6 +57,8 @@
 | ICMP      | Internet Control Message Protocol                            |
 | IMDS      | Azure Instance MetaData Service                              |
 | ISA       | Instruction-set Architecture                                 |
+| ISV       | Independent Software Vendors                                 |
+| JSON      | JavaScript Object Notation                                   |
 | JVM       | Java Virtual Machine                                         |
 | JWK       | JSON Web Key                                                 |
 | KEK       | Key Exchange Key                                             |
