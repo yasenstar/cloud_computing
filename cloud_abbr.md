@@ -38,6 +38,7 @@
 | CNCF      | Cloud Native Computing Foundation                            |
 | CSO       | Chief Security Officer                                       |
 | CSR       | Certificate Signing Request                                  |
+| DACLs     | Discretionary Access Control Lists                           |
 | DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
 | DSC       | Desired State Configuration                                  |
