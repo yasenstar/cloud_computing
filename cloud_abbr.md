@@ -49,11 +49,13 @@
 | ECS       | AWS Elastic Container Service                                |
 | ELB       | AWS Elastic Load Balancer                                    |
 | ERCS      | ASH Emergency Recovery Console                               |
+| FD        | Fault Domains                                                |
 | GAE       | Google App Engine                                            |
 | GCDS      | Google Cloud Directory Sync                                  |
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
 | GPOs      | Group Policy Objects                                         |
+| HDD       | Hard Disk Drivers                                            |
 | HDFS      | Hadoop Distributed File System                               |
 | HLH       | ASH Hardware Lifecycle Host                                  |
 | HLL       | High-Level Language VMs                                      |
@@ -101,6 +103,7 @@
 | SOC       | AICPA Service Organization Control                           |
 | SPA       | Single-Page-App                                              |
 | SPN       | Service Principal Name                                       |
+| SSD       | Solid State Drives                                           |
 | SSE       | Storage Service Encryption                                   |
 | SSH       | Secure Shell Protocol                                        |
 | SSPR      | Self-Service Password Reset                                  |
@@ -110,9 +113,12 @@
 | TOR       | ASH Top-Of-Rack Switches                                     |
 | TTL       | Time-To-Live                                                 |
 | TPM       | Trusted Platform Module 2.0                                  |
+| UD        | Update Domains                                               |
 | UDR       | User Defined Router                                          |
+| VHD       | Virtual Hard Disk                                            |
 | VMM       | Virtual-Machine Monitor (hypervisor)                         |
 | VNet      | Azure Virtual Network                                        |
 | WAF       | Web Application Firewall                                     |
+| WinRM     | Windows Remote Management                                    |
 | WSC       | Wholesale-Scale Computer                                     |
 
