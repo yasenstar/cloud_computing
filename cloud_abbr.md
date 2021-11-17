@@ -36,6 +36,8 @@
 | CLR       | Microsoft's Common Language Runtime                          |
 | CDN       | Content Delivery Networks                                    |
 | CNCF      | Cloud Native Computing Foundation                            |
+| CORS      | Cross-Origin Resource Sharing                                |
+| CSE       | Custom Script Extension                                      |
 | CSO       | Chief Security Officer                                       |
 | CSR       | Certificate Signing Request                                  |
 | DACLs     | Discretionary Access Control Lists                           |
@@ -55,6 +57,7 @@
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
 | GPOs      | Group Policy Objects                                         |
+| HCL       | Hashicorp Confiugation Language                              |
 | HDD       | Hard Disk Drivers                                            |
 | HDFS      | Hadoop Distributed File System                               |
 | HLH       | ASH Hardware Lifecycle Host                                  |
@@ -69,8 +72,10 @@
 | JSON      | JavaScript Object Notation                                   |
 | JVM       | Java Virtual Machine                                         |
 | JWK       | JSON Web Key                                                 |
+| JWT       | JSON Web Tokens                                              |
 | KEK       | Key Exchange Key                                             |
 | KQL       | Microsoft Sentinel Kusto Query Language                      |
+| LCM       | Local Configuration Manager                                  |
 | LDAP      | Lightweight Directory Access Protocol                        |
 | MCAS      | Microsoft Cloud App Security                                 |
 | MDM       | Mobile Device Management                                     |
@@ -90,6 +95,7 @@
 | PHS       | Password Hash Synchronization                                |
 | PIM       | Privileged Identity Management                               |
 | PTA       | Pass-Through Authentication                                  |
+| PV        | persistent volume                                            |
 | RDP       | Remote Desktop Protocol                                      |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
@@ -120,5 +126,6 @@
 | VNet      | Azure Virtual Network                                        |
 | WAF       | Web Application Firewall                                     |
 | WinRM     | Windows Remote Management                                    |
+| WMF       | Windows Management Framework                                 |
 | WSC       | Wholesale-Scale Computer                                     |
 
