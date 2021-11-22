@@ -6,6 +6,7 @@
 | AADC      | Azure Active Directory Connect                               |
 | AADIP     | Azure Active Directory Identify Protection                   |
 | ACI       | Microsoft Azure Container Instances                          |
+| ACID      | Atomicity, Consistency, Isolation, Durability                |
 | ACL       | Access Control List                                          |
 | ACR       | Microsoft Azure Contain Registry                             |
 | AD CS     | Active Directory Certificate Services                        |
@@ -24,6 +25,7 @@
 | ASN       | Autonomous System Number                                     |
 | ASR       | Azure Site Recovery                                          |
 | BGP       | Border Gateway Protocol                                      |
+| Blob      | Binary Large Object                                          |
 | BMC       | ASH Baseboard Management Controller                          |
 | BPA       | Microsoft Best Practices Analyzer                            |
 | BYOK      | Bring Your Own Key                                           |
@@ -87,6 +89,7 @@
 | NTP       | Network Time Protocol                                        |
 | NVA       | Network Virtual Appliance                                    |
 | OCI       | Open Container Initiative                                    |
+| OLTP      | Online Transactional Processing                              |
 | OUs       | Organizational Units                                         |
 | PAW       | Privileged Access Workstations                               |
 | PAYG      | Pay-As-You-Go                                                |
