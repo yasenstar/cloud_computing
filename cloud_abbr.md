@@ -99,6 +99,7 @@
 | PIM       | Privileged Identity Management                               |
 | PTA       | Pass-Through Authentication                                  |
 | PV        | persistent volume                                            |
+| RDD       | Resilient Distributed Dataset                                |
 | RDP       | Remote Desktop Protocol                                      |
 | RBAC      | Role-Based Access Control                                    |
 | S2S       | Site-to-Site                                                 |
