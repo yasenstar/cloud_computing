@@ -43,6 +43,7 @@
 | CSO       | Chief Security Officer                                       |
 | CSR       | Certificate Signing Request                                  |
 | DACLs     | Discretionary Access Control Lists                           |
+| DAX       | Data Analysis Expression                                     |
 | DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
 | DSC       | Desired State Configuration                                  |
