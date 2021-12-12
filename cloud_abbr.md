@@ -99,9 +99,10 @@
 | PIM       | Privileged Identity Management                               |
 | PTA       | Pass-Through Authentication                                  |
 | PV        | persistent volume                                            |
+| RBAC      | Role-Based Access Control                                    |
 | RDD       | Resilient Distributed Dataset                                |
 | RDP       | Remote Desktop Protocol                                      |
-| RBAC      | Role-Based Access Control                                    |
+| RLS       | Row-Lelel Security                                           |
 | S2S       | Site-to-Site                                                 |
 | SAS       | Shared Access Signatures                                     |
 | SIEM      | Security Information and Event Management                    |
