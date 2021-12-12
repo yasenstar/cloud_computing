@@ -43,6 +43,7 @@
 | CSO       | Chief Security Officer                                       |
 | CSR       | Certificate Signing Request                                  |
 | DACLs     | Discretionary Access Control Lists                           |
+| DAX       | Data Analysis Expression                                     |
 | DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
 | DSC       | Desired State Configuration                                  |
@@ -79,6 +80,7 @@
 | KQL       | Microsoft Sentinel Kusto Query Language                      |
 | LCM       | Local Configuration Manager                                  |
 | LDAP      | Lightweight Directory Access Protocol                        |
+| LRS       | Local Redundant Storage                                      |
 | MCAS      | Microsoft Cloud App Security                                 |
 | MDM       | Mobile Device Management                                     |
 | MMA       | Microsoft Monitoring Agent                                   |
@@ -133,4 +135,5 @@
 | WinRM     | Windows Remote Management                                    |
 | WMF       | Windows Management Framework                                 |
 | WSC       | Wholesale-Scale Computer                                     |
+| ZRS       | Zone Redundant Storage                                       |
 
