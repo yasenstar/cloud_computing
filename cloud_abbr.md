@@ -44,8 +44,10 @@
 | CSR       | Certificate Signing Request                                  |
 | DACLs     | Discretionary Access Control Lists                           |
 | DAX       | Data Analysis Expression                                     |
+| DDL       | Data Definition Language                                     |
 | DDM       | Dynamic Data Masking                                         |
 | DDoS      | Distributed Denial of Service                                |
+| DML       | Data Manipulation Language                                   |
 | DSC       | Desired State Configuration                                  |
 | DVM       | ASH Deployment Virtual Machine                               |
 | EC2       | AWS's Elastic Compute Cloud                                  |
