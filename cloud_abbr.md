@@ -101,6 +101,7 @@
 | PFX       | Private Key Certificates (.pfx)                              |
 | PHS       | Password Hash Synchronization                                |
 | PIM       | Privileged Identity Management                               |
+| PL/SQL    | Procedural Language/SQL                                      |
 | PTA       | Pass-Through Authentication                                  |
 | PV        | persistent volume                                            |
 | RBAC      | Role-Based Access Control                                    |
@@ -123,6 +124,7 @@
 | SSH       | Secure Shell Protocol                                        |
 | SSPR      | Self-Service Password Reset                                  |
 | STS       | Security Token Service                                       |
+| T-SQL     | Transact-SQL                                                 |
 | TAXII     | Trusted Automated eXchange of Indicator Information          |
 | TDE       | Transparent Data Encryption                                  |
 | TOR       | ASH Top-Of-Rack Switches                                     |
