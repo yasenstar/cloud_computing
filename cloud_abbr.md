@@ -62,6 +62,7 @@
 | GCP       | Google Cloud Platform                                        |
 | GCR       | Google Container Registry                                    |
 | GPOs      | Group Policy Objects                                         |
+| GRS       | Geo-Redundant Storage                                        |
 | HCL       | Hashicorp Confiugation Language                              |
 | HDD       | Hard Disk Drivers                                            |
 | HDFS      | Hadoop Distributed File System                               |
@@ -104,6 +105,7 @@
 | PL/SQL    | Procedural Language/SQL                                      |
 | PTA       | Pass-Through Authentication                                  |
 | PV        | persistent volume                                            |
+| RA-GRS    | Read-Access Geo-Redundant Storage                            |
 | RBAC      | Role-Based Access Control                                    |
 | RDD       | Resilient Distributed Dataset                                |
 | RDP       | Remote Desktop Protocol                                      |
