@@ -130,6 +130,7 @@
 | T-SQL     | Transact-SQL                                                                    |
 | TAXII     | Trusted Automated eXchange of Indicator Information                             |
 | TDE       | Transparent Data Encryption                                                     |
+| TLS       | Transport Layer Security                                                        |
 | TOR       | ASH Top-Of-Rack Switches                                                        |
 | TTL       | Time-To-Live                                                                    |
 | TPM       | Trusted Platform Module 2.0                                                     |
